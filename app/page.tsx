@@ -1,6 +1,5 @@
-
 export default function Home() {
   return (
-    <div>Start coding</div>
+    <div className="font-bold underline">Test</div>
   );
 }
