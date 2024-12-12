@@ -104,7 +104,7 @@ export const details: detailsObject[] = [
   },
 ];
 
-export const faq: faqObject[] = [
+export const faqs: faqObject[] = [
   {
     id: '0',
     question: 'How easy is it to setup Xora?',
