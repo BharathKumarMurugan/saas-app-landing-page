@@ -2,7 +2,7 @@
 import { plans } from "@/constants/data";
 import { clsx } from "clsx";
 import Image from "next/image";
-import React, { useState } from "react";
+import { useState } from "react";
 import { Element } from "react-scroll";
 import CountUp from "react-countup";
 import Button from "./Button";

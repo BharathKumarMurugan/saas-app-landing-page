@@ -1,7 +1,6 @@
 "use client";
 import { faqs } from "@/constants/data";
 import Image from "next/image";
-import React from "react";
 import { Element } from "react-scroll";
 import FaqItem from "./FaqItem";
 
@@ -26,22 +25,18 @@ const Faq = () => {
             {/* left side */}
             <div className="relative flex-1 pt-24">
               {faqs.slice(0, halfLength).map((faq, index) => {
-                return (
-                  <FaqItem key={faq.id} faq={faq} index={index} />
-                )
+                return <FaqItem key={faq.id} faq={faq} index={index} />;
               })}
             </div>
             {/* right side */}
             <div className="relative flex-1 lg:pt-24">
               {faqs.slice(halfLength, faqs.length).map((faq, index) => {
-                return (
-                  <FaqItem key={faq.id} faq={faq} index={halfLength + index} />
-                )
+                return <FaqItem key={faq.id} faq={faq} index={halfLength + index} />;
               })}
             </div>
           </div>
           {/* vertical divider */}
-          <div className="faq-line_after absolute left-[calc(50%-1px)] top-0 -z-1 h-full w-0.5 bg-s2 max-lg:hidden"/>
+          <div className="faq-line_after absolute left-[calc(50%-1px)] top-0 -z-1 h-full w-0.5 bg-s2 max-lg:hidden" />
         </div>
       </Element>
     </section>

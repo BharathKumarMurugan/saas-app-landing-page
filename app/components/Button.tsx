@@ -1,6 +1,5 @@
 import clsx from "clsx";
 import Image from "next/image";
-import React from "react";
 import Marker from "./Marker";
 
 interface ButtonProps {
@@ -22,7 +21,7 @@ const Button: React.FC<ButtonProps> = ({ icon, children, href, containerClassNam
         {icon && <Image src={icon} alt="btn-icon" width={40} height={40} className="size-10 mr-5 object-contain z-10" />}
         <span className="relative z-2 font-poppins base-bold text-p1 uppercase">{children}</span>
       </span>
-      
+
       <span className="glow-before glow-after" />
     </>
   );

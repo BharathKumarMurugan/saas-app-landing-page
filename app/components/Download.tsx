@@ -1,5 +1,4 @@
 "use client";
-// import { links } from "@/constants/data";
 import Image from "next/image";
 import { Element } from "react-scroll";
 import Marker from "./Marker";

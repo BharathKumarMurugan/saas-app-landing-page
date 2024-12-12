@@ -16,7 +16,7 @@ interface detailsObject {
   title: string;
 };
 
-interface faqObject {
+export interface faqObject {
   id: string;
   question: string;
   answer: string;
@@ -33,7 +33,7 @@ interface plansObject {
   logo: string;
 };
 
-interface testimonialsObject {
+export interface testimonialsObject {
   id: string;
   name: string;
   role: string;

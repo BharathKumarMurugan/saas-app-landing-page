@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import { Element } from "react-scroll";
 import { details, features } from "@/constants/data";
 import Image from "next/image";
